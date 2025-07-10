@@ -37,12 +37,6 @@
         tap-ms = <100>;
     };
 
-    scrn_macro: macro_screenshot {
-        compatible = "zmk,behavior-macro";
-        label = "Screenshot Macro";
-        bindings = <&kp LC(LS(S))>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
