@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '2'
-  - '&del_word'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - '?'
@@ -110,7 +110,7 @@ layers:
   - RGB ON
   - RGB EFF
   - RGB EFR
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
