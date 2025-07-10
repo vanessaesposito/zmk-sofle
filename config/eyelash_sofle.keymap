@@ -41,7 +41,7 @@
         compatible = "zmk,behavior-macro";
         label = "Erase Word";
         bindings = <
-            &kp LC &kp BACKSPACE
+            &kp LC(BACKSPACE)
         >;
     };
 
