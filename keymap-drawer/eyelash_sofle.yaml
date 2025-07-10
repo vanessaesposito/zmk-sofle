@@ -110,7 +110,7 @@ layers:
   - RGB ON
   - RGB EFF
   - RGB EFR
-  - RGB SPI
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
