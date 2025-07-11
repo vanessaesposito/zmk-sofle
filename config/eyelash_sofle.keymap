@@ -37,6 +37,12 @@
         tap-ms = <100>;
     };
 
+    cz_macro_Ç: cz_macro_Ç {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LSHIFT &kp CEDILLA>;
+    };
+
     del_all: macro_del_all {
         compatible = "zmk,behavior-macro";
         label = "Delete All";
@@ -59,7 +65,7 @@
     cz_modmorph: cz_modmorph {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp CEDILLA &kp LCEDILLA>;
+        bindings = <&kp CEDILLA &cz_macro_Ç>;
         mods = <MOD_LSFT MOD_RSFT>;
     };
 
