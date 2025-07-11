@@ -59,7 +59,7 @@
     cz_modmorph: cz_modmorph {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp CEDILLA &kp LS(CEDILLA)>;
+        bindings = <&kp CEDILLA &kp LCEDILLA>;
         mods = <MOD_LSFT MOD_RSFT>;
     };
 
