@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - '&del_all'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CEDILLA, s: Sft+CEDILLA}
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
