@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - '&dell_all'
+  - '&del_all'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
