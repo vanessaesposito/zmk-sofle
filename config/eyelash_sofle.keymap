@@ -40,9 +40,10 @@
     del_all: macro_del_all {
         compatible = "zmk,behavior-macro";
         label = "Delete All";
+        #binding-cells = <0>;
         bindings = <
-            &kp LC(A)       // Ctrl + A → selecionar tudo
-            &kp DELETE      // Delete → apaga tudo selecionado
+            &kp LC(A)
+            &kp DELETE
         >;
     };
 
