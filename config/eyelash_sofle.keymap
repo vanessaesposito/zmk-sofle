@@ -60,7 +60,7 @@
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp CEDILLA &kp LS(CEDILLA)>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <MOD_LSFT MOD_RSFT>;
     };
 
     keymap {
