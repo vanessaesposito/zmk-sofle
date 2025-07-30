@@ -142,11 +142,11 @@
 
         layer_3 {
             bindings = <
-&trans           &trans  &trans  &trans          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(TAB)      &trans  &trans  &tap_dance_e 0  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LS(TAB))  &trans  &trans  &trans          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(TAB)      &trans  &trans  &tap_dance_e (0)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LS(TAB))  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
