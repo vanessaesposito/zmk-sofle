@@ -1,7 +1,5 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 700  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
-#define ACUTE_E &macro_acute_e
-#define CIRC_E &macro_circ_e
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -38,37 +36,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <100>;
     };
-
-   tap_dance_e: tap_dance_e {
-        compatible = "zmk,behavior-tap-dance";
-        label = "Tap Dance E with Accents";
-        #binding-cells = <1>;
-        bindings = <
-            &kp ACUTE_E    // é
-            &kp CIRC_E     // ê
-        >;
-    };
-
-    macro_acute_e: macro_acute_e {
-        compatible = "zmk,behavior-macro";
-        label = "Macro É";
-        #binding-cells = <0>;
-        bindings = <
-            &kp ACUTE
-            &kp E
-        >;
-    };
-
-    macro_circ_e: macro_circ_e {
-        compatible = "zmk,behavior-macro";
-        label = "Macro Ê";
-        #binding-cells = <0>;
-        bindings = <
-            &kp CIRC
-            &kp E
-        >;
-    };
-
 
     ccedilha: ccedilha {
         compatible = "zmk,behavior-macro";
@@ -142,11 +109,11 @@
 
         layer_3 {
             bindings = <
-&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(TAB)      &trans  &trans  &tap_dance_e (0)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LS(TAB))  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
