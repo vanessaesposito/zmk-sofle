@@ -27,6 +27,9 @@
     trigger-period-ms = <16>;
 };
 
+&mt {
+    tapping-term-ms = <100>;
+};
 
 / {
 
