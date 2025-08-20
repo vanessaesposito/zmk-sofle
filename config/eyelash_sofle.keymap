@@ -91,7 +91,7 @@
 &kp PSCRN    &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK   &mkp MB4   &mmv MOVE_DOWN     &kp PG_UP  &kp END      &kp UP         &kp HOME        &kp MINUS         &kp BSLH
 &trans       &kp TILDE        &trans          &trans           &trans      &mkp MB5   &mmv MOVE_LEFT     &kp PG_DN  &kp LEFT     &kp DOWN       &kp RIGHT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans       &trans           &trans          &ccedilha        &trans      &trans     &mmv MOVE_RIGHT    &trans     &mkp LCLK    &mmv MOVE_UP   &mkp RCLK       &kp F11           &kp F12
-&kp C_MUTE   &trans           &trans          &trans           &trans      &kp ENTER  &mkp LCLK          &trans     &trans       &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&kp C_MUTE   &trans           &trans          &trans           &trans      &kp ENTER  &mkp LCLK          &trans     &del_word    &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
 
             display-name = "layer1";
