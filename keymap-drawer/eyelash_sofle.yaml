@@ -66,7 +66,7 @@ layers:
   - {t: Ins, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:backspace-reverse-outline$$
   layer1:
-  - '?'
+  - $$mdi:printer-outline$$
   - F1
   - F2
   - F3
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - '&del_all'
-  - $$mdi:printer-outline$$
+  - '?'
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
