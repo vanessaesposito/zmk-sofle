@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Layer_0:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -57,15 +57,15 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '~', h: layer1}
+  - {t: '~', h: Layer_1}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ^, h: '2'}
+  - {t: ^, h: Layer_2}
   - {t: Ins, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Layer_1:
   - $$mdi:printer-outline$$
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  '2':
+  Layer_2:
   - {t: '$$mdi:transfer$$', type: trans}
   - AL CALC
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -195,7 +195,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  Layer_3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
