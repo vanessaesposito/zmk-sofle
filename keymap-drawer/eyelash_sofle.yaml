@@ -261,6 +261,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 15, 16, 17]
-  k: $$mdi:keyboard-esc$$
+- p: [34, 35]
+  k: '&del_word'
   l: [Layer_0]
