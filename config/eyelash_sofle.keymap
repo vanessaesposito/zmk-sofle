@@ -38,10 +38,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_qwer_esc {
+        combo_jk_dellword {
             timeout-ms = <40>;
-            key-positions = <14 15 16 17>;   // Q, W, E e R
-            bindings = <&kp ESC>;
+            key-positions = <34 35>;   // J K
+            bindings = <&del_word >;
             layers = <0>;   // só na layer0
         };
     };
